@@ -59,3 +59,5 @@ class AppTest(TestCase):
             app.print_post(post)
 
             mocked_print.assert_called_with(expected_print)
+
+            
